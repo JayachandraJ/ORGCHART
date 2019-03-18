@@ -1,0 +1,31 @@
+﻿USE [ORG_CHART_DEV]
+GO
+/****** Object:  StoredProcedure [dbo].[PROC_GET_VERSION_TREE_OPERATIONALCHART]    Script Date: 12/10/2018 10:01:04 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Subramanian.C>
+-- =============================================
+ALTER PROCEDURE [dbo].[PROC_GET_VERSION_TREE_OPERATIONALCHART] 
+	@VERSION AS VARCHAR(50),
+	@COMPANYNAME AS VARCHAR(500),
+	@USERID AS VARCHAR(50)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	DECLARE @SQLQUERY AS VARCHAR(MAX);
+	DECLARE @COMPANYTB AS VARCHAR(500);
+	SET @COMPANYTB = @COMPANYNAME + '_LEVELINFOS';
+
+	SET @SQLQUERY = 'SELECT * FROM '+@COMPANYTB+' WHERE USER_ID='''+@USERID+''' AND VERSION='''+@VERSION+'''';
+	EXEC(@SQLQUERY);
+
+END
+
+
+--EXEC PROC_GET_VERSION_TREE_OPERATIONALCHART '26', 'MCBITSS', 'SUBBUCITTIBABU'
