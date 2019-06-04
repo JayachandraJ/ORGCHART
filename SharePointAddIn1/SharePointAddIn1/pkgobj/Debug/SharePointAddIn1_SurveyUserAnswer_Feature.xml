@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="682e6851-dca4-43f8-879a-ba79223684bc" Scope="Web" Title="SurveyUserAnswer" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="SurveyUserAsnwer\Elements.xml" />
+    <ElementFile Location="SurveyUserAsnwer\Schema.xml" />
+    <ElementManifest Location="SurveyUserAsnwerInstance\Elements.xml" />
+    <ElementManifest Location="AnsweredBy\Elements.xml" />
+    <ElementManifest Location="AnsweredDate\Elements.xml" />
+    <ElementManifest Location="AnswerNo\Elements.xml" />
+    <ElementManifest Location="QuestionNo\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="SurveyUserAsnwer\Elements.xml" />
+        <ElementManifest Location="SurveyUserAsnwerInstance\Elements.xml" />
+        <ElementManifest Location="AnsweredBy\Elements.xml" />
+        <ElementManifest Location="AnsweredDate\Elements.xml" />
+        <ElementManifest Location="AnswerNo\Elements.xml" />
+        <ElementManifest Location="QuestionNo\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

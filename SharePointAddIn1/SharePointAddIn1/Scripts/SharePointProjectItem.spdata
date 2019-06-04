@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.slim.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.slim.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.3.1.slim.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomScript\CSSRules.js" Target="Scripts\CustomScript\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\dataTables.tableTools.css" Target="Scripts\DataTables\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\dataTables.tableTools.js" Target="Scripts\DataTables\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\jquery.dataTables.css" Target="Scripts\DataTables\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\jquery.dataTables.js" Target="Scripts\DataTables\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\jquery.dataTables.min.js" Target="Scripts\DataTables\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\css\jquery.dataTables.min.css" Target="Scripts\DataTables\media\css\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\css\jquery.dataTables_themeroller.css" Target="Scripts\DataTables\media\css\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\css\jquery.dataTables1.css" Target="Scripts\DataTables\media\css\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\back_disabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\back_enabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\back_enabled_hover.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\favicon.ico" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\forward_disabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\forward_enabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\forward_enabled_hover.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\sort_asc.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\sort_asc_disabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\sort_both.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\sort_desc.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\sort_desc_disabled.png" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\images\Sorting icons.psd" Target="Scripts\DataTables\media\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\js\jquery.dataTables.js" Target="Scripts\DataTables\media\js\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\js\jquery.dataTables.min.js" Target="Scripts\DataTables\media\js\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\media\js\jquery.js" Target="Scripts\DataTables\media\js\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\de_DE.txt" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\demo.css" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\demo.js" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\details_close.png" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\details_open.png" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\examples.php" Target="Scripts\DataTables\resources\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\3\dataTables.bootstrap.css" Target="Scripts\DataTables\resources\bootstrap\3\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\3\dataTables.bootstrap.js" Target="Scripts\DataTables\resources\bootstrap\3\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\3\index.html" Target="Scripts\DataTables\resources\bootstrap\3\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\images\sort_asc.png" Target="Scripts\DataTables\resources\bootstrap\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\images\sort_asc_disabled.png" Target="Scripts\DataTables\resources\bootstrap\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\images\sort_both.png" Target="Scripts\DataTables\resources\bootstrap\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\images\sort_desc.png" Target="Scripts\DataTables\resources\bootstrap\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\bootstrap\images\sort_desc_disabled.png" Target="Scripts\DataTables\resources\bootstrap\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\font\raleway_thin-webfont.eot" Target="Scripts\DataTables\resources\font\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\font\raleway_thin-webfont.ttf" Target="Scripts\DataTables\resources\font\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\font\raleway_thin-webfont.woff" Target="Scripts\DataTables\resources\font\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\dataTables.foundation.css" Target="Scripts\DataTables\resources\foundation\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\dataTables.foundation.js" Target="Scripts\DataTables\resources\foundation\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\images\sort_asc.png" Target="Scripts\DataTables\resources\foundation\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\images\sort_asc_disabled.png" Target="Scripts\DataTables\resources\foundation\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\images\sort_both.png" Target="Scripts\DataTables\resources\foundation\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\images\sort_desc.png" Target="Scripts\DataTables\resources\foundation\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\foundation\images\sort_desc_disabled.png" Target="Scripts\DataTables\resources\foundation\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\jqueryui\dataTables.jqueryui.css" Target="Scripts\DataTables\resources\jqueryui\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\jqueryui\dataTables.jqueryui.js" Target="Scripts\DataTables\resources\jqueryui\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\jqueryui\dataTables.jqueryui.scss" Target="Scripts\DataTables\resources\jqueryui\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\jqueryui\index.html" Target="Scripts\DataTables\resources\jqueryui\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\syntax\shCore.css" Target="Scripts\DataTables\resources\syntax\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\syntax\shCore.js" Target="Scripts\DataTables\resources\syntax\" Type="ElementFile" />
+    <ProjectItemFile Source="DataTables\resources\syntax\Syntax Highlighter license" Target="Scripts\DataTables\resources\syntax\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomScript\Custom.js" Target="Scripts\CustomScript\" Type="ElementFile" />
+    <ProjectItemFile Source="Slider.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomScript\LandingPage.js" Target="Scripts\CustomScript\" Type="ElementFile" />
+    <ProjectItemFile Source="OrgchartScript\OrgchartGOJS.js" Target="Scripts\OrgchartScript\" Type="ElementFile" />
+    <ProjectItemFile Source="OrgchartScript\Orgchart.js" Target="Scripts\OrgchartScript\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

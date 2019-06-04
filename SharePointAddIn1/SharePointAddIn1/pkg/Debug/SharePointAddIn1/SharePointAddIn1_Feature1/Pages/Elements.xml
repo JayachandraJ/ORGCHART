@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Page1.aspx" Url="Pages/Page1.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ClientEmployeeListWebPart.aspx" Url="Pages/ClientEmployeeListWebPart.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AppPart\FirstPage.aspx" Url="Pages/AppPart/FirstPage.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ClientWebPart2.aspx" Url="Pages/ClientWebPart2.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ClientWebPart3.aspx" Url="Pages/ClientWebPart3.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\SiriusLandingPage.aspx" Url="Pages/SiriusLandingPage.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ShowListInfo.aspx" Url="Pages/ShowListInfo.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TempWebPart.aspx" Url="Pages/TempWebPart.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\SurveyAdmin.aspx" Url="Pages/SurveyAdmin.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ShowFiveDayWeatherForecast.aspx" Url="Pages/ShowFiveDayWeatherForecast.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ShowDetailedWeatherReport.aspx" Url="Pages/ShowDetailedWeatherReport.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ClientWebPart4.aspx" Url="Pages/ClientWebPart4.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Orgchart.aspx" Url="Pages/Orgchart.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Survey.aspx" Url="Pages/Survey.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\IssueDesign.aspx" Url="Pages/IssueDesign.aspx" ReplaceContent="TRUE" />
+  </Module>
+  <Module Name="MasterPages">
+    <File Path="Pages\MyMasterPage.master" Url="_catalogs/masterpage/MyMasterPage.master" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

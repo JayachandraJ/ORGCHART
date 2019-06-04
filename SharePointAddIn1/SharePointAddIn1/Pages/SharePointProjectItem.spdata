@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Page1.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ClientEmployeeListWebPart.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AppPart\FirstPage.aspx" Target="Pages\AppPart\" Type="ElementFile" />
+    <ProjectItemFile Source="ClientWebPart2.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ClientWebPart3.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="SiriusLandingPage.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShowListInfo.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="TempWebPart.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="SurveyAdmin.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShowFiveDayWeatherForecast.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShowDetailedWeatherReport.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ClientWebPart4.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="MyMasterPage.master" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Orgchart.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Survey.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="IssueDesign.aspx" Target="Pages\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

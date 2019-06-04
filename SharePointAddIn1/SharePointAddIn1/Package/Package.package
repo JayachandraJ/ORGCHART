@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ccc50ecd-ab07-4e3f-8335-b40cc91f1e4d" solutionId="ccc50ecd-ab07-4e3f-8335-b40cc91f1e4d" resetWebServer="false" sharePointProductVersion="16.0" name="SharePointAddIn1" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b89945a5-4a51-4224-a718-1e9ad4c8da9a" />
+    <featureReference itemId="72babc85-dd64-43ad-82ad-a10600aa8ab6" />
+    <featureReference itemId="1daef342-b87e-4514-8511-9d2b38067ce2" />
+    <featureReference itemId="ec2538f4-0452-4fdd-972b-4f34756ca0db" />
+    <featureReference itemId="4bbf4859-558e-498c-95d5-d24ecf32aa69" />
+    <featureReference itemId="307f6f29-7162-4e9a-8fd2-02e9ec185e7c" />
+    <featureReference itemId="7941e0af-e8d6-44b9-a45a-c2af1bbda92b" />
+    <featureReference itemId="40db2a59-64a6-4171-885b-d25f0995cb45" />
+    <featureReference itemId="ef968fee-bc09-4d2d-a4ba-917b020cfd97" />
+    <featureReference itemId="4045e20c-d78e-4e6a-9203-7adafc06571c" />
+    <featureReference itemId="e693646d-a7bf-4db8-a771-84038c4c9b3d" />
+    <featureReference itemId="d9ca3e71-b72a-4cb1-865f-77a1cd1ec1c1" />
+  </features>
+</package>

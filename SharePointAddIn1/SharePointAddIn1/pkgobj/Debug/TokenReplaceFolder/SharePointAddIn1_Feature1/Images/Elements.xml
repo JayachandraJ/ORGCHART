@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\img_mountains_wide.jpg" Url="Images/SiteImages/img_mountains_wide.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\img_nature_wide.jpg" Url="Images/SiteImages/img_nature_wide.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\img_snow_wide.jpg" Url="Images/SiteImages/img_snow_wide.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\clear.svg" Url="Images/SiteImages/Forecast/clear.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\clouds.svg" Url="Images/SiteImages/Forecast/clouds.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\default.svg" Url="Images/SiteImages/Forecast/default.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\few-clouds.svg" Url="Images/SiteImages/Forecast/few-clouds.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\mist.svg" Url="Images/SiteImages/Forecast/mist.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\snow.svg" Url="Images/SiteImages/Forecast/snow.svg" ReplaceContent="TRUE" />
+    <File Path="Images\SiteImages\Forecast\thunder.svg" Url="Images/SiteImages/Forecast/thunder.svg" ReplaceContent="TRUE" />
+    <File Path="Images\downarrow.jpg" Url="Images/downarrow.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\uparrow.jpg" Url="Images/uparrow.jpg" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

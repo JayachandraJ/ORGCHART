@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="PromotedURLList" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/PromotedURLList" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">WeatherReport</Field>
+          <Field Name="PromotedDescription">Shows five day report</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/pages/ShowListInfo.aspx?Entity=WeatherReport</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">UpcomingEventList</Field>
+          <Field Name="PromotedDescription">Shows all the upcoming Events</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/pages/ShowListInfo.aspx?Entity=UpcomingEvent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">UpcomingEventCURD</Field>
+          <Field Name="PromotedDescription">Upcoming Event CURD Operation</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/UpcomingEvent/AllItems.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">DepartmentList</Field>
+          <Field Name="PromotedDescription">Shows all the Department List</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/pages/ShowListInfo.aspx?Entity=DepartmentList</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">DepartmentListCURD</Field>
+          <Field Name="PromotedDescription">Department List CURD Operation</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/DepartmentList/AllItems.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">SiriusNewsList</Field>
+          <Field Name="PromotedDescription">Shows all the Sirius News</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/pages/ShowListInfo.aspx?Entity=SiriusNews</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">SiriusNewsCURD</Field>
+          <Field Name="PromotedDescription">Sirius News CURD Operation</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/SiriusNews/AllItems.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">AnnouncementList</Field>
+          <Field Name="PromotedDescription">Shows all the Announcement</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/pages/ShowListInfo.aspx?Entity=Announcement</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">AnnouncementCURD</Field>
+          <Field Name="PromotedDescription">Announcement CURD Operation</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/Announcement/AllItems.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Redirect</Field>
+          <Field Name="PromotedName">HelpContentList</Field>
+          <Field Name="PromotedDescription">Shows all the Help</Field>
+          <Field Name="PromotedURL">https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Slider</Field>
+          <Field Name="PromotedName">Courasol</Field>
+          <Field Name="PromotedDescription">Los Angeles|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;LA is always so much fun!|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;</Field>
+          <Field Name="PromotedURL">../Images/SiteImages/img_mountains_wide.jpg</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Slider</Field>
+          <Field Name="PromotedName">Courasol</Field>
+          <Field Name="PromotedDescription">Chicago|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;Thank you, Chicago!|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;</Field>
+          <Field Name="PromotedURL">../Images/SiteImages/img_nature_wide.jpg</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Slider</Field>
+          <Field Name="PromotedName">Courasol</Field>
+          <Field Name="PromotedDescription">New York|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;We love the Big Apple!|https://joetellez.sharepoint.com/sites/iterondev/SharePointAddIn1/Lists/HelpContent/AllItems.aspx;</Field>
+          <Field Name="PromotedURL">../Images/SiteImages/img_snow_wide.jpg</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

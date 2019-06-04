@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="DepartmentList" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/DepartmentList" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">IT</Field>
+          <Field Name="DepartmentHead">Subramanian</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HR</Field>
+          <Field Name="DepartmentHead">Jay</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

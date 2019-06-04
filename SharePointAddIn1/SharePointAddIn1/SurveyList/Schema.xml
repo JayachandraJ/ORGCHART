@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SurveyList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SurveyList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+    <ContentType ID="0x0100a66e4e20120140379fb1282bb5f8916b" Name="ListFieldsContentType">
+        <FieldRefs>
+           <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+           <FieldRef ID="{ce70b0ec-ae39-482c-abc9-13c32fc27054}" Name="SurveyName" />
+           <FieldRef ID="{c65b5bd8-62c9-40b5-ae61-01a47556e522}" Name="SurveyCreatedBy" />
+           <FieldRef ID="{bd05c4ae-14c2-4291-a1ad-0a1af7ac32d7}" Name="SurveyCreatedDate" />
+           <FieldRef ID="{c138b2c4-37a1-4e93-9f6f-3b35e0d7b038}" Name="SurveyActive" />
+        </FieldRefs>
+        </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+         <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+         <Field ID="{ce70b0ec-ae39-482c-abc9-13c32fc27054}" Name="SurveyName" DisplayName="Survey Name" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field>
+         <Field ID="{c65b5bd8-62c9-40b5-ae61-01a47556e522}" Name="SurveyCreatedBy" DisplayName="Created By" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field>
+         <Field ID="{bd05c4ae-14c2-4291-a1ad-0a1af7ac32d7}" Name="SurveyCreatedDate" DisplayName="Created Date" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field>
+         <Field ID="{c138b2c4-37a1-4e93-9f6f-3b35e0d7b038}" Name="SurveyActive" DisplayName="Active Indicator" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+            <FieldRef Name="Title" DisplayName="Survey No" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}"></FieldRef>
+            <FieldRef Name="SurveyName" DisplayName="Survey Name" ID="{ce70b0ec-ae39-482c-abc9-13c32fc27054}"></FieldRef>
+            <FieldRef Name="SurveyCreatedBy" DisplayName="Created By" ID="{c65b5bd8-62c9-40b5-ae61-01a47556e522}"></FieldRef>
+            <FieldRef Name="SurveyCreatedDate" DisplayName="Created Date" ID="{bd05c4ae-14c2-4291-a1ad-0a1af7ac32d7}"></FieldRef>
+            <FieldRef Name="SurveyActive" DisplayName="Active Indicator" ID="{c138b2c4-37a1-4e93-9f6f-3b35e0d7b038}"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+               <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+             <FieldRef Name="Title" />
+             <FieldRef Name="SurveyName" />
+             <FieldRef Name="SurveyCreatedBy" />
+             <FieldRef Name="SurveyCreatedDate" />
+             <FieldRef Name="SurveyActive" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

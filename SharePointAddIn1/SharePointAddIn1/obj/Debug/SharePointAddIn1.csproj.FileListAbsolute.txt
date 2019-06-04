@@ -1,0 +1,9 @@
+C:\Users\McBitss\source\repos\SharePointAddIn1\SharePointAddIn1\bin\Debug\SharePointAddIn1.pdb
+C:\Users\McBitss\source\repos\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.csproj.CoreCompileInputs.cache
+C:\Users\McBitss\source\repos\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.dll
+C:\Users\McBitss\source\repos\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.pdb
+E:\McbitssJobs\SharePoint\DevSite\SharePointAddIn1\SharePointAddIn1\bin\Debug\SharePointAddIn1.pdb
+E:\McbitssJobs\SharePoint\DevSite\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.csprojAssemblyReference.cache
+E:\McbitssJobs\SharePoint\DevSite\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.csproj.CoreCompileInputs.cache
+E:\McbitssJobs\SharePoint\DevSite\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.dll
+E:\McbitssJobs\SharePoint\DevSite\SharePointAddIn1\SharePointAddIn1\obj\Debug\SharePointAddIn1.pdb
