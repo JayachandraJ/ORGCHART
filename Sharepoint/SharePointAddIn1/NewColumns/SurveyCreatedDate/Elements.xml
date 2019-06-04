@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{bd05c4ae-14c2-4291-a1ad-0a1af7ac32d7}"
+       Name="SurveyCreatedDate"
+       DisplayName="Survey Created Date"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

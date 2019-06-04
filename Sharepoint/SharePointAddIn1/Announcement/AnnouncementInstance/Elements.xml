@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Announcement" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Announcement" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Aus Vs Ind</Field>
+          <Field Name="AnnouncementDesc">Kohil going to play 300th ODI</Field>
+          <Field Name="AnnouncementDate">19/07/2019</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aus Vs Ind</Field>
+          <Field Name="AnnouncementDesc">Kohil going to play 100th Test Match</Field>
+          <Field Name="AnnouncementDate">19/07/2019</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UpcomingEvent" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/UpcomingEvent" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Ranji Trophy</Field>
+          <Field Name="Location">Chennai</Field>
+          <Field Name="EMail">subbu.cittibabu@gmail.com</Field>
+          <Field Name="EventType">Cricket</Field>
+          <Field Name="EventDate">19/07/2019</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Deodhar Trophy</Field>
+          <Field Name="Location">Delhi</Field>
+          <Field Name="EMail">subbu.cittibabu@gmail.com</Field>
+          <Field Name="EventType">Cricket</Field>
+          <Field Name="EventDate">19/07/2019</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

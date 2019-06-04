@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SurveyList" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/SurveyList" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">1</Field>
+          <Field Name="SurveyName">IPL Trophy</Field>
+          <Field Name="SurveyCreatedBy">Subbu</Field>
+          <Field Name="SurveyCreatedDate">12/05/2019</Field>
+          <Field Name="SurveyActive">Y</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">2</Field>
+          <Field Name="SurveyName">Ranji Trophy</Field>
+          <Field Name="SurveyCreatedBy">Subbu</Field>
+          <Field Name="SurveyCreatedDate">12/04/2019</Field>
+          <Field Name="SurveyActive">N</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="UpcomingEvent" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/UpcomingEvent" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01004cd7dadbb78a43a39446350231da5550" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{288F5F32-8462-4175-8F09-DD7BA29359A9}" Name="Location" />
+          <FieldRef ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" />
+          <FieldRef ID="{0d4dc91d-13f3-4073-b3d8-c80ff5825c0f}" Name="EventType" />
+          <FieldRef ID="{da6e2862-13a0-4865-8517-87cb4dfff81f}" Name="EventDate" />
+        </FieldRefs>
+       </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>      
+      
+      
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{288F5F32-8462-4175-8F09-DD7BA29359A9}" Type="Text" Group="$Resources:core,Person_Event_Columns;" Name="Location" DisplayName="$Resources:core,Location;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3/fields" StaticName="Location" AllowDeletion="TRUE" /><Field ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EMail" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,E-Mail;" ReadOnly="FALSE" Type="Text" FromBaseType="TRUE" AllowDeletion="TRUE" DelayActivateTemplateBinding="GROUP,SPSPERS,SITEPAGEPUBLISHING" /><Field ID="{0d4dc91d-13f3-4073-b3d8-c80ff5825c0f}" Name="EventType" DisplayName="Event Type" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{da6e2862-13a0-4865-8517-87cb4dfff81f}" Name="EventDate" DisplayName="Event Date" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="Event Name"></FieldRef>
+          <FieldRef Name="Location" ID="{288F5F32-8462-4175-8F09-DD7BA29359A9}" DisplayName="Location"></FieldRef>
+          <FieldRef Name="Email" ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" DisplayName="EMail"></FieldRef>
+          <FieldRef Name="EventType" ID="{0d4dc91d-13f3-4073-b3d8-c80ff5825c0f}" DisplayName="Event Type"></FieldRef>
+          <FieldRef Name="EventDate" ID="{da6e2862-13a0-4865-8517-87cb4dfff81f}" DisplayName="Event Date"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Title"></FieldRef>
+          <FieldRef Name="Location"></FieldRef>
+          <FieldRef Name="EMail"></FieldRef>
+          <FieldRef Name="EventType"></FieldRef>
+          <FieldRef Name="EventDate"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

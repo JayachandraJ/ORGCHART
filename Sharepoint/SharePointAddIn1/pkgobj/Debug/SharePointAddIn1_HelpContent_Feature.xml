@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Help Content" Id="2ff98e2f-5df1-432a-a5d6-f38aff851aa8" Scope="Web" Title="HelpContent" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="HelpContent\Elements.xml" />
+    <ElementFile Location="HelpContent\Schema.xml" />
+    <ElementManifest Location="HelpContentInstance\Elements.xml" />
+    <ElementManifest Location="HelpURL\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="HelpContent\Elements.xml" />
+        <ElementManifest Location="HelpContentInstance\Elements.xml" />
+        <ElementManifest Location="HelpURL\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

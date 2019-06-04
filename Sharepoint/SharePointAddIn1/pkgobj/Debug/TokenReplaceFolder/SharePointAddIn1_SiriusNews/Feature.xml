@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="214071f9-a6b4-44ea-bb47-09f068c59639" Scope="Web" Title="Sirius News" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="SiriusNews\Elements.xml" />
+    <ElementFile Location="SiriusNews\Schema.xml" />
+    <ElementManifest Location="SiriusNewsInstance\Elements.xml" />
+    <ElementManifest Location="News\Elements.xml" />
+    <ElementManifest Location="NewsDate\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="SiriusNews\Elements.xml" />
+        <ElementManifest Location="SiriusNewsInstance\Elements.xml" />
+        <ElementManifest Location="News\Elements.xml" />
+        <ElementManifest Location="NewsDate\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
